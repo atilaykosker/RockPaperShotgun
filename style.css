@@ -1,0 +1,126 @@
+@import url("https://fonts.googleapis.com/css?family=Rubik:700&display=swap");
+
+body {
+  background: linear-gradient(#0e6251, #154360);
+  min-height: 100vh;
+  margin: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+/* //////////////////////// Containers */
+.justify-content-center {
+  flex-direction: column;
+}
+.container-fluid {
+  background: #6b4361;
+  border-radius: 50px;
+  max-width: 600px;
+  min-width: 600px;
+  text-align: center;
+}
+
+.header {
+  text-align: center;
+  margin: 20px 0px 0px 0px;
+}
+
+.scoreboard {
+  background: ;
+  border-radius: 0px 0px 50px 50px;
+}
+/* //////////////////////// Buttons*/
+
+#rock,
+#paper,
+#shotgun,
+#restart {
+  position: relative;
+  display: inline-block;
+  cursor: pointer;
+  outline: none;
+  border: 0;
+  vertical-align: middle;
+  text-decoration: none;
+  font-size: inherit;
+  font-family: inherit;
+  background: #ff96e5;
+}
+.button {
+  font-weight: 600;
+  color: $text;
+  text-transform: uppercase;
+  padding: 1.25em 2em;
+  border-radius: 0.75em;
+  transform-style: preserve-3d;
+  transition: transform 150ms cubic-bezier(0, 0, 0.58, 1);
+}
+
+#rock:hover,
+#paper:hover,
+#shotgun:hover,
+#restart:hover {
+  background: #b3579c;
+  transform: translate(0, 0.25em);
+}
+
+/* //////////////////////// Buttons Clicked */
+
+.win {
+  background-color: #7dcea0;
+  border: 3px solid #922b21;
+}
+
+.lose {
+  background-color: #d98880;
+  border: 3px solid #4d5656;
+}
+
+.tie {
+  background: #bfc9ca;
+  border: 3px solid #4d5656;
+}
+
+/* ///////////////////////// Text */
+
+h1,
+h2,
+h3,
+p,
+li {
+  font-family: "Helvetica";
+  color: #154360;
+}
+
+h1 {
+  font-weight: 900;
+  color: rgb(255, 255, 255);
+}
+
+h2,
+#message {
+  margin: 10px 0px;
+  font-weight: 900;
+  color: rgb(255, 255, 255);
+}
+
+h3 {
+  font-size: 15pt;
+  margin: 10px;
+  color: rgb(255, 255, 255);
+}
+
+h4 {
+  margin: 0px 0px 40px 0px;
+  color: rgb(255, 255, 255);
+}
+
+i.icons {
+  font-size: 30pt;
+  color: #154360;
+}
+
+.scores {
+  color: rgb(255, 255, 255);
+}
